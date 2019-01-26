@@ -42,7 +42,7 @@ h1 {
 
 h2 {
   text-transform: uppercase;
-  color: darken(#f7b733,10%);
+  color: #f7b733;
   font-size: .83rem;
   padding: .5rem .1rem;
   margin-bottom: 0;
@@ -77,7 +77,7 @@ a {
 }
 
 a:hover {
-  color: darken(#62b6cb, 15%);
+  color: #58A4B7;
 }
 
 header {
@@ -163,7 +163,7 @@ a.credit {
 }
 
 a:hover.credit {
-  color: darken(#bee9e8, 15%);
+  color: #ABD2D1;
 }
 
 .hero-img {
@@ -241,7 +241,7 @@ footer ul li {
     color: #f7b733;
 }
 .contact-container  a:hover {
-    color: darken(#f7b733, 15%);
+    color: #DEA52E;
 }
 
 .contact-hero {
