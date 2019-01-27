@@ -161,6 +161,37 @@ nav a:hover {
   padding-left: calc(.33rem - 2px);
 }
 
+/* phone only */
+@media only screen and (max-width : 812px) {
+  header {
+    height: auto;
+  }
+  .name-logo {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  .nav-links {
+    flex-flow: column nowrap;
+    width: 100%;
+  }
+  nav {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+  }
+  nav a {
+    padding: .5rem 0;
+    margin: 0;
+  }
+  .active-nav {
+    border: none;
+    /* border-bottom: 2px solid #f7b733; */
+    padding: .5rem 0;
+    margin: 0;
+  }
+}
+
 /**********************/
 /**** list styling ****/
 /**********************/
