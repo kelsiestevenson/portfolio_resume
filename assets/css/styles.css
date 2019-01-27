@@ -30,7 +30,7 @@ body {
 }
 
 /* phone only */
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width : 812px) {
   .body-width {
     width: 100%;
     flex-flow: column nowrap;
@@ -41,7 +41,7 @@ body {
 }
 
 /* tablet up */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 813px) {
   .body-width {
     width: 90%;
   }
@@ -116,7 +116,7 @@ a:hover {
 }
 
 /* phone only */
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width : 812px) {
   p {
     font-size: 16px;
   }
