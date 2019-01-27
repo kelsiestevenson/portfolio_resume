@@ -186,7 +186,6 @@ nav a:hover {
   }
   .active-nav {
     border: none;
-    /* border-bottom: 2px solid #f7b733; */
     padding: .5rem 0;
     margin: 0;
   }
@@ -279,7 +278,7 @@ footer ul li {
 .card {
   align-items: flex-start;
   margin: 1em;
-  width: 40%;
+  width: 30%;
 }
 .card img {
     max-height: 30vh;
@@ -296,6 +295,26 @@ footer ul li {
     align-self: center;
     text-align: right;
     flex-grow: 1;
+}
+
+/* phone only */
+@media only screen and (max-width : 812px) {
+  .card {
+    width: 100%;
+  }
+  .card img {
+      max-height: 80vh;
+    }
+}
+
+/* tablet up */
+@media only screen and (min-width: 813px) {
+  .card {
+    width: 45%;
+  }
+  .card img {
+      max-height: 60vh;
+    }
 }
 
 /* resume */
