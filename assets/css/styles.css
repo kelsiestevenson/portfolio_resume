@@ -165,6 +165,7 @@ nav a:hover {
 @media only screen and (max-width : 812px) {
   header {
     height: auto;
+    min-height:1px;
   }
   .name-logo {
     width: 100%;
@@ -245,6 +246,7 @@ a:hover.credit {
 .hero-img {
   border-radius: 50%;
   height: auto;
+  min-height:1px;
 }
 
 /**********************/
@@ -284,6 +286,7 @@ footer ul li {
     max-height: 30vh;
     width: 100%;
     height: auto;
+    min-height:1px;
     background-color: white;
     border-radius: 4px;
     box-shadow: rgba(0,0,0,.1) 2px 4px 6px;
@@ -303,8 +306,10 @@ footer ul li {
     width: 100%;
   }
   .card img {
-      max-height: 80vh;
-    }
+    height: auto;
+    max-height: 80vh;
+    min-height: 1px;
+  }
 }
 
 /* tablet up */
